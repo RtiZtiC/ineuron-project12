@@ -1,0 +1,476 @@
+body{
+    margin: 0;
+    /* padding: 2% 6%; */
+}
+
+.navbar{
+    display: flex;
+    padding: 2% 6%;
+    background-color: #636c79;
+    justify-content: space-between;
+    color: white;
+}
+
+.logo{
+    width: 120px;
+    height: 40px;
+    position: relative;
+    top:7px;
+}
+
+.item{
+    font-family: "Poppins";
+    color:white;
+    text-decoration: none;
+    padding-right: 20px;
+    position: relative;
+    top:10px;
+}
+
+
+
+.Bigbtn{
+    border-style: none;
+    width:450px;
+    height: 48px;
+    color: gray;
+}
+
+
+.btn{
+    width: 120px;
+    height: 35px;
+    background-color: #8bb7a2;
+    border-style: none;
+    color: white;
+    padding: 2% 1%;
+    padding-bottom: 3.5%;
+}
+
+.smol{
+    width: 110px;
+    height: 35px;
+    position: relative;
+    right:115px;
+    top:5px;
+}
+
+.bpr{
+    position: relative;
+    right:130px;
+}
+
+
+.headerbt{
+    display: flex;
+}
+
+
+.img1{
+    width: 430px;
+    height: 480px; 
+    object-fit: cover;
+    object-position: 20% 10%;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+
+.Section-1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #636c79;
+    color: white;
+    padding: 2% 6%;
+}
+
+.Section-2{
+    font-family: "Poppins";
+    padding: 2% 6%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Section-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec1div{
+    font-family: "Poppins";
+    padding: 0% 6%;
+    position: relative;
+    top:0px;
+}
+
+.sec1div h1{
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+.midhead{
+    font-size: 1.8rem;
+    padding: 2% 32%;
+}
+
+.talk{
+    width:100px;
+    height: 40px;
+    background: transparent;
+    color: white;
+    border:2px solid white;
+
+}
+
+
+.bullets{
+    display: flex;
+    justify-content: space-around;
+    gap:100px;
+}
+
+.Section-3{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    padding: 5% 2%;
+}
+
+.start-heading{
+        display: flex;
+        padding-top: 6%;
+        justify-content: space-around;
+    
+}
+.sh2{
+    position: relative;
+    left: 70px;
+}
+
+.sec1div p{
+    color: white;
+}
+
+.Bigbtn p{
+    color: black;
+}
+
+i{
+    color:black;
+    padding-right: 5px;
+}
+.img2{
+    width:55%;
+    padding: 7% 0%;
+}
+
+.middle{
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 2rem;
+    padding: 0% 35%;
+}
+
+
+.img0{
+    width: 450px;
+    height: 500px; 
+    object-fit: cover;
+}
+
+.imgspl{
+    width: 450px;
+    height: 500px; 
+    object-fit: cover;
+    object-position: 80% 10%;
+
+}
+
+.peopleimg{
+    width:80%;
+    width: 350px;
+    height: 480px; 
+    object-fit: cover;
+    object-position: 0% 10%;
+}
+
+.bullets h2{
+    font-size: 2rem;
+}
+
+
+.box h4{
+    font-weight: 500;
+    padding-top: 4%;
+}
+
+.box p{
+    font-size: .9rem;
+    padding-right: 10%;
+}
+.imgbox{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+}
+.box{ 
+    width:350px;
+    font-family: "Poppins";
+}
+
+
+.head2{
+    width: 600px;
+    height: 400px;
+    padding: 2% 5%;
+    position: relative;
+    top:50px;
+    /* left:20px; */
+
+}
+
+.head1{
+    width: 600px;
+    height: 400px;
+    padding: 2% 5%;
+    position: relative;
+    top:50px;
+    /* right:50px; */
+
+}
+
+.subsec{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 6%;
+    gap:100px;
+}
+
+.p-text{
+    padding: 0% 6%;
+}
+
+.h-text{
+    position: relative;
+    font-family: "Poppins";
+    font-size: 2.2rem;
+    font-weight: 500;
+}
+
+.head-texxt{
+    padding-bottom: 3%;
+}
+
+.para-text{
+    padding-bottom: 3%;
+}
+
+.lastbtn{
+    width: 130px;
+    height: 35px;
+    padding: 1% 1%;
+    padding-bottom: 2%;
+    position: relative;
+    margin:4% 0%;
+}
+
+p{
+    color: gray;
+    
+}
+
+.Footer{
+    background-color: #21252b;
+    color: white;
+}
+
+.flow{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-around;
+}
+
+li{
+    list-style: none;
+    font-size: .8rem;
+    line-height: 2rem;
+    color: gray;
+}
+
+.subhead{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.fitem{
+    padding-top: 5%;
+    position: relative;
+    padding-bottom: 10%;
+}
+
+.logonew{
+    width: 130px;
+    height: 50px;
+    position: relative;
+    top:7px;
+}
+
+.fitem1{
+    font-family: "Poppins";
+    display: flex;
+    justify-content: space-around;
+    padding: 3% 2%;
+}
+
+.fitem1 p{
+    padding-right: 30%;
+}
+
+hr{
+    width:90%;
+    color:white;
+    background-color: white;
+    margin-bottom: 3%;
+}
+
+.iconfooter{
+    display: flex;
+    justify-content: space-between;
+    gap:5px;
+}
+
+.iconsingle{
+    color: white;
+    width: 120%;
+    display: inline;
+    position: relative;
+    padding-right: 15px;
+}
+
+@media screen and (max-width:976px) {
+    .options{
+        visibility: hidden;
+    }
+    .Section-1{
+        padding-top: 5%;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap:60px;
+    }
+    .sec1div {
+        text-align: center;
+    }
+    .headerbt{
+        margin-top: 5%;
+        position: relative;
+        left:140px;
+    }
+    
+    .bullets{
+        flex-direction: column;
+    }
+    .midhead{
+        font-size: 1.8rem;
+        padding: 2% 10%;
+    }
+    .start-heading{
+        flex-direction: column;
+        gap:60px;
+        align-items: center;
+ 
+    }
+    .head1{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .head2{
+        display: flex;
+        flex-direction: column;
+        gap:30px;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .sh2{
+        left: 0;
+        flex-direction: column-reverse;
+    }
+    .head-text{
+        padding:0% 20% ;
+    }
+    .para-text{
+        padding: 0% 20%;
+    }
+    .subsec{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .p-text{
+        text-align: center;
+    }
+    .imgbox{
+        flex-direction: column;
+        align-items: center;
+        gap:60px;
+    }
+    .box{
+        text-align: center;
+    }
+    .lastbtn{
+       text-align: center;
+    }
+    .fitem1{
+        justify-content: space-around;
+    }
+    hr{
+        width: 50%;
+    }
+    .flow{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .fitem1{
+        flex-direction: column;
+        gap:50px;
+        align-items: center;
+    }
+
+
+    .sec1div h1{
+        font-size: 3rem;
+        padding: 1% 6%;
+    }
+    .sec1div p{
+        padding: 1% 16%;
+    }
+    
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        top:0px;
+    }
+    .headerbt{
+        left:60px;
+    }
+    .img2{
+        width:100%;
+    }
+    .middle{
+        padding: 5% 10%;
+    }
+}
